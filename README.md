@@ -1,13 +1,13 @@
 # Pulse-Code-Modulation
-## **Aim:**
-To perform Pulse Code Modulation for a given signal using python.
-## **Tools required:**
-
-python IDE with Numpy and Scipy
-## **Program:**
+# Aim
+Write a simple Python program for the modulation and demodulation of PCM, and DM.
+# Tools required
+Google Colab 
+# Program
 ```
-# PCM import matplotlib.pyplot as plt
+
 import numpy as np
+import matplotlib.pyplot as plt
 
 # Parameters
 sampling_rate = 5000  # Sampling rate (samples per second)
@@ -59,10 +59,10 @@ plt.xlabel("Time [s]")
 plt.ylabel("Amplitude")
 plt.grid(True)
 
-# Plot 'PCM Demodulation'
+# Plot 'PCM Demodulation' 
 plt.subplot(4, 1, 4)
-plt.plot(t, quantized_signal, label="Signal Demodulation", color='purple', linestyle='--')
-plt.title("Signal Without Demodulation")
+plt.plot(t, quantized_signal, label="PCM Demodulation Signal", color='purple', linestyle='--')
+plt.title("PCM Demodulation Signal")
 plt.xlabel("Time [s]")
 plt.ylabel("Amplitude")
 plt.grid(True)
@@ -70,13 +70,16 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 ```
-
-## **Output Waveform:**
-![EXP 3](https://github.com/user-attachments/assets/091221d3-8ac9-49cd-b399-017190f415b3)
+# Output Waveform
 
 
+<img width="1189" height="990" alt="image" src="https://github.com/user-attachments/assets/5a5196aa-00a6-47ae-a293-28a715765e6c" />
 
 
-## **Results:**
 
-Pulse Code Modulation for the given signal using python is verified.
+# Results
+
+<img width="1189" height="990" alt="image" src="https://github.com/user-attachments/assets/42ce516e-337a-48a0-915b-4098a807b6e3" />
+
+
+Hardware experiment output waveform.
